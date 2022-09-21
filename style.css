@@ -1,0 +1,49 @@
+canvas {
+    display: block;
+    margin: 0 auto;
+    border:3px solid black;
+}
+
+.btn {
+    background: none;
+    width: 30px;
+    height: 30px;
+    margin: 10px 16px;
+    border-radius: 5px;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.green {background-color: green}
+.blue {background-color: blue}
+.red {background-color: red}
+.black{background-color: black;}
+.clear {
+    display: block;
+    margin: 19px auto;
+    width: 100px;
+    height: 30px;
+    background: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.clear:hover {
+    background-color: black;
+    color: white;
+}
+
+.lw-title {
+    text-align: center;
+    margin-bottom: -25px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
